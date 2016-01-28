@@ -2,7 +2,7 @@
 
 * Datastructures
     * Trees  
-        * Red-Black Trees
+        * [Red-Black Trees](datastructures/trees_red_black.md)
         * Splay Trees
         * Randomized Search Trees
     * Applications of Dynamic Programming
