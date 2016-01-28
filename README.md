@@ -1,0 +1,1 @@
+This book covers most of the Algorithms that we studied during my years in University. The point of this book is to explain each algorithm/data structure briefly and list up the important points about it. This way future students can use this book as a reference guide, or even a study guide to get more details about a specific algorithm or data structure.
