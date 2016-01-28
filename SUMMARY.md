@@ -1,13 +1,15 @@
 # Summary
 
-* Datastructures
+* Data Structures
     * Trees  
         * [Red-Black Trees](datastructures/trees_red_black.md)
         * Splay Trees
         * Randomized Search Trees
     * Applications of Dynamic Programming
-    * External Datastructures
-    * Multi Dimensional Datastructure
+        * Optimal Binary Search Trees
+        * Longest Common Sub sequence
+    * External Data Structures
+    * Multi-dimensional Data Structures
     * Priority Queues
 * Graph Problems
     * Applications of Depth First Search
@@ -16,7 +18,7 @@
     * Flow Networks
     * Matching
 * Strings
-    * Datastructures for Strings
+    * Data Structures for Strings
         * Tries
             * Binary Tries
             * Multiway Trie
@@ -41,7 +43,7 @@
         * Search Engines
 * P and NP
     * Introduction 
-    * SAT and 3SAT
+    * SAT and 3-SAT
     * Graph Problems
     * Problems with Collections
     * Networks
