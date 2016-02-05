@@ -25,4 +25,4 @@ DP(i,S) = max(DP(i + 1, X), DP(i + 1, X - s_i) + v_i)
 ```
 
 This will give us a running time of `Θ(n * S)`, which we will consider as a *pseudopolynomial time* because S is going to be small and is not going to be exponential, but still worse than polynomial.
-### Coding our solution
+## Coding our solution
