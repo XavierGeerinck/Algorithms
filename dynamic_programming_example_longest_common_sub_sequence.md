@@ -1,2 +1,2 @@
-# Longest Common Sub sequence
+# Example : Longest Common Sub sequence
 
