@@ -21,7 +21,7 @@ We can break down every dynamic programming problem in a few steps which will he
 1. Define the subproblems and count them (#subproblems)
 2. Guess (part of the solution), it is possible that there are no guesses. (#choices)
     * *Example #1:* In a knapsack problem we can choose between picking the item, or leaving it
-    * *Example #2:* In fibonacci there are no choices so = 1
+    * *Example #2:* In Fibonacci there are no choices so = 1
 3. Relate subproblem solutions (gets the time/subproblem)
 4. Build an algorithm using one of the two techniques described (make sure that subproblem is acyclic, so that we can use topological order)
     * Recurse & Memoize
