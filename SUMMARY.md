@@ -8,7 +8,7 @@
        * Randomized Search Trees
    * Applications of Dynamic Programming
        * [General](dynamic_programming_general.md)
-       * Knapsack
+       * [Knapsack](dynamic_programming_example_knapsack.md)
        * Optimal Binary Search Trees
        * Longest Common Sub sequence
    * External Data Structures
