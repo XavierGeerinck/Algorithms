@@ -12,9 +12,8 @@ We can think of it as a "carefully chosen brute force" which will try all the po
 > Dynamic programming will basically express a problem as a Dynamic Acyclic graph (DAG) and find the shortest path in it
 
 We can find the runtime for a dynamic programming problem by using the following formula:
-```
-runtime = #subproblems * time/subproblem (treat a recursive call as Θ(1))
-```
+
+$$runtime = \#subproblems * time/subproblem (treat~a~recursive~call~as~Θ(1))$$
 
 ## Steps to find a solution
 We can break down every dynamic programming problem in a few steps which will help us to find a problem:
