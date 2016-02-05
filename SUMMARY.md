@@ -10,6 +10,7 @@
        * General
        * Optimal Binary Search Trees
        * Longest Common Sub sequence
+       * Knapsack
    * External Data Structures
    * Multi-dimensional Data Structures
    * Priority Queues
