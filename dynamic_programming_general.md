@@ -29,7 +29,7 @@ We can break down every dynamic programming problem in a few steps which will he
 5. Solve the original problem
 
 # Reference
-https://www.youtube.com/watch?v=OQ5jsbhAv_M
-https://www.youtube.com/watch?v=ENyox7kNKeY
-https://www.youtube.com/watch?v=tp4_UXaVyx8
+https://www.youtube.com/watch?v=OQ5jsbhAv_M<br />
+https://www.youtube.com/watch?v=ENyox7kNKeY<br />
+https://www.youtube.com/watch?v=tp4_UXaVyx8<br />
 http://www.es.ele.tue.nl/education/5MC10/Solutions/knapsack.pdf
