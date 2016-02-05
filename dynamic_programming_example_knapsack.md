@@ -6,10 +6,10 @@ In the Knapsack problem, we assume we are a thief that has a knapsack that can h
 solution = max(sum(values of subset n with totalsize ≤ S))
 ```
 
-**1. Subproblems?**<br />
+###1. Subproblems?
 Suffix i: of items
 
-**2. Guessing**<br />
+###2. Guessing
 Is item i in the subset or not? --> 2 choices
 
 Here we can see we have 2 choices:
