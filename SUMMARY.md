@@ -7,9 +7,9 @@
        * Splay Trees
        * Randomized Search Trees
    * Applications of Dynamic Programming
+       * General
        * Optimal Binary Search Trees
        * Longest Common Sub sequence
-       * General
    * External Data Structures
    * Multi-dimensional Data Structures
    * Priority Queues
