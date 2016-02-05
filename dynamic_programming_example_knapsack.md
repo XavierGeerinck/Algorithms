@@ -1,5 +1,5 @@
-## Example : Knapsack
-### General analysis and formulation
+# Example : Knapsack
+## General analysis and formulation
 In the Knapsack problem, we assume we are a thief that has a knapsack that can hold a maximum weight of S'. He now goes into a house and sees *n items* of *value v_i* and with a *weight of s_i*. Which items should the thief take to get the maximum profit?
 
 ```
