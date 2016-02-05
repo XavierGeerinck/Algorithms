@@ -1,63 +1,65 @@
 # Summary
 
+* [Introduction](README.md)
 * Data Structures
-    * Trees  
-        * [Red-Black Trees](datastructures/trees_red_black.md)
-        * Splay Trees
-        * Randomized Search Trees
-    * Applications of Dynamic Programming
-        * Optimal Binary Search Trees
-        * Longest Common Sub sequence
-    * External Data Structures
-    * Multi-dimensional Data Structures
-    * Priority Queues
+   * Trees
+       * [Red-Black Trees](datastructures/trees_red_black.md)
+       * Splay Trees
+       * Randomized Search Trees
+   * Applications of Dynamic Programming
+       * Optimal Binary Search Trees
+       * Longest Common Sub sequence
+       * General
+   * External Data Structures
+   * Multi-dimensional Data Structures
+   * Priority Queues
 * Graph Problems
-    * Applications of Depth First Search
-    * Shortest Paths
-    * Transitive Closure
-    * Flow Networks
-    * Matching
+   * Applications of Depth First Search
+   * Shortest Paths
+   * Transitive Closure
+   * Flow Networks
+   * Matching
 * Strings
-    * Data Structures for Strings
-        * Tries
-            * Binary Tries
-            * Multiway Trie
-            * Patricia Tries
-        * Variable Length-code
-            * Elias Code
-            * Gamma Code
-            * Fibonacci Code
-        * Huffmancode
-        * Ternary Search Tree
-    * Searching in Strings
-        * Prefix Function
-        * Knuth-Morris-Pratt
-        * Boyer-Moore
-        * Monte-Carlo Algorithms
-        * Karp-Rabin
-        * Automatons
-        * Shift-AND
-    * Indexing Text
-        * Suffix Trees
-        * Suffix Arrays
-        * Search Engines
+   * Data Structures for Strings
+       * Tries
+           * Binary Tries
+           * Multiway Trie
+           * Patricia Tries
+       * Variable Length-code
+           * Elias Code
+           * Gamma Code
+           * Fibonacci Code
+       * Huffmancode
+       * Ternary Search Tree
+   * Searching in Strings
+       * Prefix Function
+       * Knuth-Morris-Pratt
+       * Boyer-Moore
+       * Monte-Carlo Algorithms
+       * Karp-Rabin
+       * Automatons
+       * Shift-AND
+   * Indexing Text
+       * Suffix Trees
+       * Suffix Arrays
+       * Search Engines
 * P and NP
-    * Introduction 
-    * SAT and 3-SAT
-    * Graph Problems
-    * Problems with Collections
-    * Networks
-    * Data storage
+   * Introduction
+   * SAT and 3-SAT
+   * Graph Problems
+   * Problems with Collections
+   * Networks
+   * Data storage
 * Metaheuristics
-    * Local Search
-    * Simulated Annealing
-    * Tabu Search
-    * Exploring Local Search Methods
-        * GRASP
-        * Variable Neighborhood Search
-        * Guided Local Search
-    * Population Based
-        * Ant Colony
-        * Evolutionary Computation
+   * Local Search
+   * Simulated Annealing
+   * Tabu Search
+   * Exploring Local Search Methods
+       * GRASP
+       * Variable Neighborhood Search
+       * Guided Local Search
+   * Population Based
+       * Ant Colony
+       * Evolutionary Computation
 * Sources
 
