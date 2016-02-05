@@ -1,2 +1,2 @@
-# Optimal Binary Search Trees
+# Example : Optimal Binary Search Trees
 
