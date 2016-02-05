@@ -2,7 +2,7 @@
 ## General
 Dynamic Programming is a method for solving complex problems, it does this by breaking down the initial problem in sub-problem and then tries to find a solution for these sub-problems. Once it found this, it will store these solutions for re-use later.
 
-We can think of it as a carefully chosen brute force which will try all the possibilities but avoid having an exponential amount by limiting them.
+We can think of it as a "carefully chosen brute force" which will try all the possibilities but avoid having an exponential amount by limiting them.
 
 **Core ideas**
 * Guessing (Try all the different choices and take the best one)
