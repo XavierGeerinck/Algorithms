@@ -7,7 +7,7 @@
        * Splay Trees
        * Randomized Search Trees
    * Applications of Dynamic Programming
-       * General
+       * [General](dynamic_programming_general.md)
        * Knapsack
        * Optimal Binary Search Trees
        * Longest Common Sub sequence
