@@ -47,5 +47,3 @@ console.log(fib(25));
 Now, what is our gain here? Well this time we use almost no recursion. Since every time when we look for a value, we check if it is in our memo table. If it is, then we will use it, giving back a `Θ(1)` performance.
 
 This means for `n` numbers, that we will have a `Θ(1)` performance, so resulting in a total run time of: `Θ(n)` which is way better than our previous implementation.
-
-1. Define Subproblems<br />
