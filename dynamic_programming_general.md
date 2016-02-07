@@ -29,15 +29,6 @@ We can break down every dynamic programming problem in a few steps which will he
 
 > A quick tip on learning Dynamic Programming, is to think about the problems in a top-down fashion instead of bottom-up. We will however still program the problems in a bottom-up fashion, since it makes it easier to find the time and space complexity and results in a shorter source code.
 
-## Small Example
-To illustrate the steps above, we will apply them to one of the easiest problems out there. The Fibonacci problem. In the Fibonacci problem, our goal is to find the **n'th** Fibonacci number, where the solution is given by the sum of the 2 previous numbers. 
-
-Let's write this out as a formula
-
-$$Fib(n) = Fib(n - 2) + Fib(n - 1)$$
-
-1. Define Subproblems<br />
-
 
 # Reference
 https://www.youtube.com/watch?v=OQ5jsbhAv_M<br />
