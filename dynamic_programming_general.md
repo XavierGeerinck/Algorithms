@@ -23,14 +23,18 @@ We can break down every dynamic programming problem in a few steps which will he
     * *Example #2:* In Fibonacci there are no choices so = 1
 3. Relate subproblem solutions (gets the time/subproblem)
 4. Build an algorithm using one of the two techniques described. (make sure that subproblem is acyclic, so that we can use topological order)
-    * Recurse & Memoize (Top-Down method)
-    * Build a DP table (Bottom-up method)
+    * **Recurse & Memoize (Top-Down method):** break down the given problem and solve + save it if it has not been solved yet. Return the saved answer
+    * **Build a DP table (Bottom-up method):** Analyze the problem, find order in which sub-problems are solved and start solving from the trivial sub-problem. Up towards the given problem.
 5. Solve the original problem
 
 > A quick tip on learning Dynamic Programming, is to think about the problems in a top-down fashion instead of bottom-up. We will however still program the problems in a bottom-up fashion, since it makes it easier to find the time and space complexity and results in a shorter source code.
 
 ## Small Example
-To illustrate the steps written above, let's practice this with a small problem. Let's say we have **N** Coins with a separate value and a total sum **S**. Find the least coins required that have a combined value of our sum S.
+To illustrate the steps above, we will apply them to one of the easiest problems out there. The Fibonacci problem. In the Fibonacci problem, our goal is to find the **n'th** Fibonacci number, where the solution is given by the sum of the 2 previous numbers. 
+
+Let's write this out as a formula
+
+$$Fib(n) = Fib(n - 2) + Fib(n - 1)$$
 
 1. Define Subproblems<br />
 
@@ -40,4 +44,5 @@ https://www.youtube.com/watch?v=OQ5jsbhAv_M<br />
 https://www.youtube.com/watch?v=ENyox7kNKeY<br />
 https://www.youtube.com/watch?v=tp4_UXaVyx8<br />
 http://www.es.ele.tue.nl/education/5MC10/Solutions/knapsack.pdf<br />
-http://www.geeksforgeeks.org/dynamic-programming-set-1/
+http://www.geeksforgeeks.org/dynamic-programming-set-1/<br />
+https://www.quora.com/Are-there-any-good-resources-or-tutorials-for-dynamic-programming-besides-the-TopCoder-tutorial
