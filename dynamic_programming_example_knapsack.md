@@ -39,7 +39,7 @@ function knapSack(S, v, s, n) {
     }
     // Return max if item included or not
     else {
-        return Math.max(v[n - 1] + knapSack(W - s[n - 1], v, s, n - 1), knapSack(W, v, s, n -1)));
+        return Math.max(v[n - 1] + knapSack(W - s[n - 1], v, s, n - 1), knapSack(W, v, s, n -1));
     }
 }
 
