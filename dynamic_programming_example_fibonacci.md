@@ -30,6 +30,8 @@ Which is bad! Let's improve this by using our Dynamic Programming approach.
 ## With Dynamic Programming
 So every time we need to calculate a problem, check if we already computed the problem, if not then calculate it. This technique is the bottom-up approach which will use "memoization".
 
+
+**Memoization (Top-Down)**
 ```javascript
 var memo = {};
 
@@ -39,6 +41,21 @@ function fib(n) {
     var f = fib(n - 2) + fib(n - 1);
     memo[n] = f;
     return f;
+}
+
+console.log(fib(25));
+```
+
+**Tabulation (Bottom-Up)**
+```javascript
+function fib(n) {
+    var fib = [];
+    fib[0] = 0; fib[1]= 1;
+    for (var i = 2; i <= n; i++) }
+        fib[i] = fib[i - 1] + fib[i - 2];
+    }
+    
+    return fib[n];
 }
 
 console.log(fib(25));
