@@ -6,7 +6,7 @@
        * [Red-Black Trees](datastructures/trees_red_black.md)
        * Splay Trees
        * Randomized Search Trees
-   * Dynamic Programming
+   * [Dynamic Programming](dynamic_programming_general.md)
        * [General](dynamic_programming_general.md)
        * [Fibonacci](dynamic_programming_example_fibonacci.md)
        * [Knapsack](dynamic_programming_example_knapsack.md)
