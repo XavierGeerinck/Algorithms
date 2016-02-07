@@ -61,6 +61,7 @@ function knapSack(S, v, s, n) {
             if (!K[i]) {
                 K[i] = [];
             }
+            
             if (i == 0 || w == 0) {
                 K[i][w] = 0;
             } else if (s[i - 1] <= w) {
@@ -71,7 +72,7 @@ function knapSack(S, v, s, n) {
         }
     }
     
-    return K[n][w];
+    return K[n][S];
 }
 
 var v = [60, 100, 120];
