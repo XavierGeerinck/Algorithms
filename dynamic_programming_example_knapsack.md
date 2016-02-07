@@ -21,6 +21,7 @@ Here we can see we have 2 choices:
 $$DP(i, X) = MAX(DP(i + 1, X), DP(i + 1, X - s_i) + v_i)$$
 
 ## Coding our solution
+### Bottom-up
 To code our solution we can again think of the top down way and the bottom up way. Let us start with the top-down way since this will explain us properly on how the solution works. So for the base case (which is on 0 items and total capacity of 0) this will return 0 (maximum value that we can put in our knapsack).
 
 Now for the rest of the cases we will just go through the solutions. Every time making sure that we do not exceed our total capacity W.
@@ -49,3 +50,5 @@ var S = 50;
 var n = v.length;
 console.log(knapSack(S, v, s, n));
 ```
+
+### Top-Down
