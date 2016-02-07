@@ -29,7 +29,7 @@ Now for the rest of the cases we will just go through the solutions. Every time 
 // Knapsack (Max Capacity, values, weights, number of items)
 function knapSack(S, v, s, n) {
     // Our base case
-    if (n == 0 || W == 0) {
+    if (n == 0 || S == 0) {
         return 0;
     }
     
@@ -39,13 +39,13 @@ function knapSack(S, v, s, n) {
     }
     // Return max if item included or not
     else {
-        return Math.max(v[n - 1] + knapSack(W - s[n - 1], v, s, n - 1), knapSack(W, v, s, n -1));
+        return Math.max(v[n - 1] + knapSack(S - s[n - 1], v, s, n - 1), knapSack(S, v, s, n -1));
     }
 }
 
 var v = [60, 100, 120];
 var s = [10, 20, 30];
-var W = 50;
+var S = 50;
 var n = v.length;
-console.log(knapSack(W, v, s, n));
+console.log(knapSack(S, v, s, n));
 ```
