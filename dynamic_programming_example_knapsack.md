@@ -54,7 +54,7 @@ console.log(knapSack(S, v, s, n));
 ### Top-Down
 ```javascript
 function knapSack(S, v, s, n) {
-    var K;
+    var K = [];
     
     for (var i = 0; i <=n; i++) {
         for (var w = 0; w <= S; w++) {
