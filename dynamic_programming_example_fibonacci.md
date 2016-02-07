@@ -46,6 +46,8 @@ function fib(n) {
 console.log(fib(25));
 ```
 
+We can also work bottom down, which is the iterative way or also called "tabulation". It will calculate all the values from the first one to the last one (so bottom up). The advantage of this method is that it does not require a stack!
+
 **Tabulation (Bottom-Up)**
 ```javascript
 function fib(n) {
