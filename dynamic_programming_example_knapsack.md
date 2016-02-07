@@ -52,3 +52,28 @@ console.log(knapSack(S, v, s, n));
 ```
 
 ### Top-Down
+```javascript
+function knapSack(S, v, s, n) {
+    var K;
+    
+    for (var i = 0; i <=n; i++) {
+        for (var w = 0; w <= S; w++) {
+            if (i == 0 || w == 0) {
+                K[i][w] = 0;
+            } else if (s[i - 1] <= w) {
+                K[i][w] = Math.max(v[i - 1] + K[i - 1][w - s[i - 1]], K[i - 1][w]);
+            } else {
+                K[i][w] = K[i - 1][w];
+            }
+        }
+    }
+    
+    return K[n][w];
+}
+
+var v = [60, 100, 120];
+var s = [10, 20, 30];
+var S = 50;
+var n = v.length;
+console.log(knapSack(S, v, s, n));
+```
