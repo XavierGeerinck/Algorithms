@@ -6,7 +6,7 @@
        * [Red-Black Trees](datastructures/trees_red_black.md)
        * Splay Trees
        * Randomized Search Trees
-   * Applications of Dynamic Programming
+   * Dynamic Programming
        * [General](dynamic_programming_general.md)
        * [Knapsack](dynamic_programming_example_knapsack.md)
        * [Optimal Binary Search Trees](dynamic_programming_example_optimal_binary_search_trees.md)
