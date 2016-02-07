@@ -21,3 +21,31 @@ Here we can see we have 2 choices:
 $$DP(i, X) = MAX(DP(i + 1, X), DP(i + 1, X - s_i) + v_i)$$
 
 ## Coding our solution
+To code our solution we can again think of the top down way and the bottom up way. Let us start with the top-down way since this will explain us properly on how the solution works. So for the base case (which is on 0 items and total capacity of 0) this will return 0 (maximum value that we can put in our knapsack).
+
+Now for the rest of the cases we will just go through the solutions. Every time making sure that we do not exceed our total capacity W.
+
+```javascript
+// Knapsack (Max Capacity, values, weights, number of items)
+function knapSack(S, v, s, n) {
+    // Our base case
+    if (n == 0 || W == 0) {
+        return 0;
+    }
+    
+    // If the n'th item > capacity S, do not include
+    if (s[n - 1] > S) {
+        return knapSack(S, v, s, n - 1);
+    }
+    // Return max if item included or not
+    else {
+        return Math.max(v[n - 1] + knapSack(W - s[n - 1], v, s, n - 1), knapSack(W, v, s, n -1)));
+    }
+}
+
+var v = [60, 100, 120];
+var s = [10, 20, 30];
+var W = 50;
+var n = v.length;
+console.log(knapSack(W, v, s, n));
+```
