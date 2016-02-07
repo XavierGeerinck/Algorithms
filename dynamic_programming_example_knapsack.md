@@ -58,6 +58,9 @@ function knapSack(S, v, s, n) {
     
     for (var i = 0; i <=n; i++) {
         for (var w = 0; w <= S; w++) {
+            if (!K[i]) {
+                K[i] = [];
+            }
             if (i == 0 || w == 0) {
                 K[i][w] = 0;
             } else if (s[i - 1] <= w) {
