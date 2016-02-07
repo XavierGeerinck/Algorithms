@@ -5,9 +5,15 @@ In the Knapsack problem, we assume we are a thief that has a knapsack that can h
 $$solution = max(sum(values~of~subset~n~with~totalsize ≤ S))$$
 
 **1. Identifying the sub-problems**<br />
-Let us find a sub-problem for the knapsack problem. One possible sub-problem would be to find the optimal solution for the set. This however 
+Think of it as suffixes of items, this means what are we going to decide about item **i**? If we think about it in a normal way, then we would get that we or pick to item, or leave it. So if we pick it we get an extra value, but if we leave it we just go to the next item. This is formulated by the following: 
 
-###2. Guessing
+$$DP(i) = MAX(DP(i +1), DP(i + 1) + v_i)$$.
+
+This however is NOT correct! Because we also have a constraint, which says that we can not have a weight more than the capacity **S** which our knapsack can hold. So let us reformulate the formula above so that it will keep our weight in mind.
+
+$$DP(i) = MAX(DP(i + 1, X), DP(i + 1, X - s_i) + v_i)$$
+
+**2. Guessing**<br />
 Is item i in the subset or not? --> 2 choices
 
 Here we can see we have 2 choices:
