@@ -4,8 +4,8 @@ In the Knapsack problem, we assume we are a thief that has a knapsack that can h
 
 $$solution = max(sum(values~of~subset~n~with~totalsize ≤ S))$$
 
-###1. Subproblems?
-Suffix i: of items
+**1. Identifying the sub-problems**<br />
+Let us find a sub-problem for the knapsack problem. One possible sub-problem would be to find the optimal solution for the set. This however 
 
 ###2. Guessing
 Is item i in the subset or not? --> 2 choices
