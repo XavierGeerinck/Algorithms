@@ -29,7 +29,7 @@
        * Variable Length-code
            * [Elias Code](strings_variable_length_code_elias.md)
            * [Gamma Code](strings_variable_length_code_gamma.md)
-           * Fibonacci Code
+           * [Fibonacci Code](strings_variable_length_code_fibonacci.md)
        * [Huffmancode](strings_huffmancode.md)
        * Ternary Search Tree
    * Searching in Strings
