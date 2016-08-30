@@ -53,7 +53,7 @@
    * Data storage
 * Metaheuristics
    * [Local Search](heuristics_trajectory_methods_basic_local_search.md)
-   * Simulated Annealing
+   * [Simulated Annealing](heuristics_trajectory_methods_simulated_annealing.md)
    * Tabu Search
    * Exploring Local Search Methods
        * GRASP
