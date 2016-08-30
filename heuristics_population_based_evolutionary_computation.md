@@ -1,4 +1,14 @@
 # Evolutionary Computation
+Evolutionary Computation exists out of a population. In this population every individual has a specific "fitness level" which will indicate on how good the solution is. To improve this solution, the algorithm will now combine 2 parents into a new child and mutate this child to adapt some specific parameters. Afterwards it will check if the child is now an improvement to the population and should be added towards it.
+
+## Algorithm
+1. Create a population
+2. Check the fitness of the individuals of the population
+3. As long as termination condition not met, continue
+    1. Recombine: take 2 parents and combine them
+    2. Mutate: For the new child, change some properties based on a mutation parameter
+    3. Generational Replacement: Check the fitness level of the mutated child, and add it if it is better
+    
 ```
 /**
  * @author: Xavier Geerinck
