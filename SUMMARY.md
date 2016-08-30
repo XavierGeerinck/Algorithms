@@ -52,7 +52,7 @@
    * Networks
    * Data storage
 * Metaheuristics
-   * Local Search
+   * [Local Search](heuristics_trajectory_methods_basic_local_search.md)
    * Simulated Annealing
    * Tabu Search
    * Exploring Local Search Methods
