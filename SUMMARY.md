@@ -61,6 +61,6 @@
        * Guided Local Search
    * Population Based
        * [Ant Colony](heuristics_population_based_ant_colony.md)
-       * Evolutionary Computation
+       * [Evolutionary Computation](heuristics_population_based_evolutionary_computation.md)
 * Sources
 
