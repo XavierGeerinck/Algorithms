@@ -27,7 +27,7 @@
            * Multiway Trie
            * Patricia Tries
        * Variable Length-code
-           * Elias Code
+           * [Elias Code](strings_variable_length_code_elias.md)
            * Gamma Code
            * Fibonacci Code
        * [Huffmancode](strings_huffmancode.md)
