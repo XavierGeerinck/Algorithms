@@ -60,7 +60,7 @@
        * Variable Neighborhood Search
        * Guided Local Search
    * Population Based
-       * Ant Colony
+       * [Ant Colony](heuristics_population_based_ant_colony.md)
        * Evolutionary Computation
 * Sources
 
