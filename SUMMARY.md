@@ -12,7 +12,12 @@
         * [Optimal Binary Search Trees](dynamic_programming_example_optimal_binary_search_trees.md)
         * [Longest Common Sub sequence](dynamic_programming_example_longest_common_sub_sequence.md)
     * External Data Structures
+        * B-Trees
+        * B+-Trees
+        * B\*-Trees 
     * Multi-dimensional Data Structures
+        * Point-Region Quadtree
+        * Point-Quadtrees
     * Priority Queues
 * Graph Problems
     * Applications of Depth First Search
