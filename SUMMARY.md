@@ -30,7 +30,7 @@
            * Elias Code
            * Gamma Code
            * Fibonacci Code
-       * Huffmancode
+       * [Huffmancode](strings_huffmancode.md)
        * Ternary Search Tree
    * Searching in Strings
        * Prefix Function
