@@ -28,7 +28,7 @@
            * Patricia Tries
        * Variable Length-code
            * [Elias Code](strings_variable_length_code_elias.md)
-           * Gamma Code
+           * [Gamma Code](strings_variable_length_code_gamma.md)
            * Fibonacci Code
        * [Huffmancode](strings_huffmancode.md)
        * Ternary Search Tree
