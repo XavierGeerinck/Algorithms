@@ -19,6 +19,7 @@
         * Point-Region Quadtree
         * Point-Quadtrees
     * Priority Queues
+        * Binomial Queues
 * Graph Problems
     * Applications of Depth First Search
     * Shortest Paths
