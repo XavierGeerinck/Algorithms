@@ -54,7 +54,7 @@
 * Metaheuristics
    * [Local Search](heuristics_trajectory_methods_basic_local_search.md)
    * [Simulated Annealing](heuristics_trajectory_methods_simulated_annealing.md)
-   * Tabu Search
+   * [Tabu Search](heuristics_trajectory_methods_tabu_search.md)
    * Exploring Local Search Methods
        * GRASP
        * Variable Neighborhood Search
