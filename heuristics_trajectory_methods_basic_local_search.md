@@ -3,9 +3,8 @@ The local search metaheuristic is an *iterative improvement* heuristic, since ev
 
 ## Algorithm
 1. GenerateInitialSolution
-2. while(termination not met)
-    1. Pick a new solution
-    2. If the new solution is better than the old one, replace our old one 
+2. while(improvement possible)
+    1. Improve the solution until no possible improvement is found
 
 ## Example
 The traveling salesman problem: A salesman has to go to N doors to sell his goods. What is the shortest path that he can take?
