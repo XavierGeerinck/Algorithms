@@ -26,7 +26,7 @@
     * Transitive Closure
     * Flow Networks
     * Matching
- * Strings
+* Strings
     * Data Structures for Strings
         * Tries
             * Binary Tries
@@ -49,8 +49,8 @@
     * Indexing Text
         * Suffix Trees
         * Suffix Arrays
-        * Search Engines
- * P and NP
+        * Search Engines & Inverted Files
+* P and NP
     * Introduction
     * SAT and 3-SAT
     * Graph Problems
