@@ -8,6 +8,6 @@ The local search metaheuristic is an *iterative improvement* heuristic, since ev
     2. If the new solution is better than the old one, replace our old one 
 
 ## Example
-The travelling salesman problem: A salesman has to go to N doors to sell his goods. What is the shortest path that he can take?
+The traveling salesman problem: A salesman has to go to N doors to sell his goods. What is the shortest path that he can take?
 
 [** Metaheuristics in Combinatorial Optimization: Overview and Conceptual Comparison*]()
