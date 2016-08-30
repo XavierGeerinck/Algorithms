@@ -1,4 +1,9 @@
 # Ant Colony
+The Ant Colony algorithm is based on the real life example of ants. Ants will find the shortest path from their home to the food. They do this by something called "pheromone". These pheromones are used to mark the direction where the ants have to go on intersections, and they will follow the path with the strongest smell.
+
+Now to find the shortest path, some of these ants will explore new paths, which get more pheromones too. So that more and more ants will start to follow this path and find the shortest path.
+
+## Algorithm
 
 ```
 /**
