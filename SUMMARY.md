@@ -6,11 +6,11 @@
         * [Red-Black Trees](datastructures/trees_red_black.md)
         * [Splay Trees](datastructures/splay_trees.md)
         * [Randomized Search Trees](datastructures/randomized_search_trees.md)
-    * [Dynamic Programming](dynamic_programming.md)
-        * [Fibonacci](dynamic_programming_example_fibonacci.md)
-        * [Knapsack](dynamic_programming_example_knapsack.md)
-        * [Optimal Binary Search Trees](dynamic_programming_example_optimal_binary_search_trees.md)
-        * [Longest Common Sub sequence](dynamic_programming_example_longest_common_sub_sequence.md)
+    * [Dynamic Programming](dynamic_programming/dynamic_programming.md)
+        * [Fibonacci](dynamic_programming/example_fibonacci.md)
+        * [Knapsack](dynamic_programming/example_knapsack.md)
+        * [Optimal Binary Search Trees](dynamic_programming/example_optimal_binary_search_trees.md)
+        * [Longest Common Sub sequence](dynamic_programming/example_longest_common_sub_sequence.md)
     * External Data Structures
         * B-Trees
         * B+-Trees
