@@ -14,7 +14,7 @@ Finding this with Dynamic Programming is really easy. We will create a matrix fo
 To now find our LGC, we start that the most right bottom value in our matrix, and go back. If the characters match, we go one diagonally left upwards, else we go left.
 
 ## Example
-
+![](/images/datastructures/dynamic_programming_longest_common_subsequence.png)
 
 ## Code
 
