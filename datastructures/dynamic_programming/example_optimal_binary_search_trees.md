@@ -12,6 +12,8 @@ Now to solve this with dynamic programming, we follow these steps:
     * Now take the sum of the probabilities of the combined elements
     * * the minimum of the longest combination possible if we take every index seperately as a root element.
 
+> Note that this algorithm gives $$O(n^3)$$ as performance.
+
 ## Example
 
 | | 0 | 1 | 2 | 3 |
