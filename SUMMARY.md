@@ -33,10 +33,10 @@
             * Multiway Trie
             * Patricia Tries
         * Variable Length-code
-            * [Elias Code](strings_variable_length_code_elias.md)
-            * [Gamma Code](strings_variable_length_code_gamma.md)
-            * [Fibonacci Code](strings_variable_length_code_fibonacci.md)
-        * [Huffmancode](strings_huffmancode.md)
+            * [Elias Code](strings/variable_length_code/elias.md)
+            * [Gamma Code](strings/variable_length_code/gamma.md)
+            * [Fibonacci Code](strings/variable_length_code/fibonacci.md)
+        * [Huffmancode](strings/huffmancode.md)
         * Ternary Search Tree
     * Searching in Strings
         * Prefix Function
@@ -59,11 +59,11 @@
     * Data storage
 * Metaheuristics
     * Trajectory Methods
-        * [Local Search](heuristics_trajectory_methods_basic_local_search.md)
-        * [Simulated Annealing](heuristics_trajectory_methods_simulated_annealing.md)
-        * [Tabu Search](heuristics_trajectory_methods_tabu_search.md)
+        * [Local Search](heuristics/trajectory_methods_basic_local_search.md)
+        * [Simulated Annealing](heuristics/trajectory_methods_simulated_annealing.md)
+        * [Tabu Search](heuristics/trajectory_methods_tabu_search.md)
     * Population Based
-        * [Ant Colony](heuristics_population_based_ant_colony.md)
-        * [Evolutionary Computation](heuristics_population_based_evolutionary_computation.md)
+        * [Ant Colony](heuristics/population_based_ant_colony.md)
+        * [Evolutionary Computation](heuristics/population_based_evolutionary_computation.md)
 * Sources
 
