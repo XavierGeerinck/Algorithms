@@ -52,3 +52,5 @@ This removal can cause a underflow, because the minimum amount of elements shoul
     * The number of keys is between 3 and 5
 * B-tree of magnitude 5
     * The number of keys is between 2 and 4
+
+> Now try this yourself and insert the keys: 1, 2, 3, 4, 5, 6 for a B-tree with magnitude m = 3
