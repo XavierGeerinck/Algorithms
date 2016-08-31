@@ -32,24 +32,57 @@ Every time we insert a node, we will set its color to red and the root node to b
 
 1. Insert as you would in a BST tree, but make the new node = red \(so if &gt; go right, if &lt; go left\)
 2. If P is NOT BLACK or N is not the root
-    1. U is red
-        * Make U and P black
-        * Make G red
-        * Repeat from G
-    2. U is black
-        * Left Left Case \(P is left child of G and N is left child of P\)
-        * Right Rotate G and Switch colors P and G
-        * Left Right Case \(P is left child of G and N is right child of P\)
-        * Left Rotate P --&gt; Back to the Left Left case
-    3. N is root, set color to black
+  1. U is red
+
+  * Make U and P black
+  * Make G red
+  * Repeat from G
+
+  1. U is black
+
+    * Left Left Case \(P is left child of G and N is left child of P\)
+    * Right Rotate G and Switch colors P and G
+    * Left Right Case \(P is left child of G and N is right child of P\)
+    * Left Rotate P --&gt; Back to the Left Left case
+
+  2. N is root, set color to black
+
+
 
 | **Left Left Case** | **Left Right Case** |
 | --- | --- |
 | ![](/images/datastructures/trees_red_black_insert_left_left_case.png) | ![](/images/datastructures/trees_red_black_insert_left_right_case.png) |
 
+> A good way to study this, is to try this yourself on paper for the series: 1,2,3,4,5,7,6
+
 ### Bottom-Up Deletion
+
+**Legend:** N = new node, S = sibling of N, P = parent, U = uncle of parent, G = grandparent
+
+For deletion, we will now start as we would in a BST. This means, find the node by going down the tree and look at its children:
+
+* no children: just delete the node
+* 1 child: Swap the child with its parent and delete the new child
+* 2 children: Swap the child with its inorder successor \(most left node in the right subtree\)
+
+Whenever we remove a child from the tree, we have to decrease the color of the leaf by one.
+
+* For a red color, this becomes black \(so nothing special has to be done\)
+* A black color however, becomes a _double black_ color. Which means we will have to fix this in the tree with the cases below:
+
+| Case 1: Sibling = RED | Case 2: Sibling = BLACK & has 2 BLACK childs |
+| --- | --- |
+| Rotate S over P and recolor S & P, then go to another case ![](/images/datastructures/trees_red_black_deletion_case1.png) | Make S RED, P now absorves the double black \(so if P was red, then we are done; else repeat from P which is now double black\) ![](/images/datastructures/trees_red_black_deletion_case2.png) |
+| Case 3: Sibling = BLACK & Right child is RED | Case 4: Sibling = BLACK & Right child is BLACK and left child is RED |
+| Rotate S over P and swap their colors. Make the right child of S black. ![](/images/datastructures/trees_red_black_deletion_case3.png) | Rotate S its left child over S and swap their colors. Now go to case 3. ![](/images/datastructures/trees_red_black_deletion_case4.png) |
+
+> Learning this can be quite tricky since the cases are alike. We can however see that all the cases have to do with looking at a sibling! 1x sibling black and 2x sibling black, the last case is a special one with only the sibling and a red left child.
 
 ### Top-Down Insertion
 
+**Legend:** N = new node, S = sibling of N, P = parent, U = uncle of parent, G = grandparent
+
 ### Top-Down Deletion
+
+**Legend:** N = new node, S = sibling of N, P = parent, U = uncle of parent, G = grandparent
 
