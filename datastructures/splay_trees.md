@@ -8,9 +8,9 @@ The bottom up method uses a term called _splaying_, this will set a specific ele
 
 | Zig Case | Zig Zag Case |
 | --- | --- |
-| ![](/images/datastructures/splay_bottom_up_zig_case.png) | ![](/images/datastructures/splay_bottom_up_zig_zag_case.png) |
+| Rotate Right over P ![](/images/datastructures/splay_bottom_up_zig_case.png) | First rotate C left over P and then rotate this solution right over G ![](/images/datastructures/splay_bottom_up_zig_zag_case.png) |
 | Zig Zig Case |  |
-| ![](/images/datastructures/splay_bottom_up_zig_zig_case.png) |  |
+| First rotate C over P right and then again rotate right over G ![](/images/datastructures/splay_bottom_up_zig_zig_case.png) |  |
 
 ## Top Down
 
