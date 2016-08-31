@@ -11,7 +11,7 @@
         * [Knapsack](datastructures/dynamic_programming/example_knapsack.md)
         * [Optimal Binary Search Trees](datastructures/dynamic_programming/example_optimal_binary_search_trees.md)
         * [Longest Common Sub sequence](datastructures/dynamic_programming/example_longest_common_sub_sequence.md)
-    * [External Data Structures](external-data-structures.md)
+    * [External Data Structures](datastructures/external_datastructures/external-data-structures.md)
         * [B-Trees](datastructures/external_datastructures/b_trees.md)
         * [B+-Trees](datastructures/external_datastructures/b_plus_trees.md)
         * [B\*-Trees](datastructures/external_datastructures/b_star_trees.md)
