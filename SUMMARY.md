@@ -4,7 +4,7 @@
 * Data Structures
     * Trees
         * [Red-Black Trees](datastructures/trees_red_black.md)
-        * Splay Trees
+        * [Splay Trees](splay-trees.md)
         * Randomized Search Trees
     * [Dynamic Programming](dynamic_programming.md)
         * [Fibonacci](dynamic_programming_example_fibonacci.md)
@@ -14,7 +14,7 @@
     * External Data Structures
         * B-Trees
         * B+-Trees
-        * B\*-Trees 
+        * B\*-Trees
     * Multi-dimensional Data Structures
         * Point-Region Quadtree
         * Point-Quadtrees
@@ -58,7 +58,7 @@
     * Networks
     * Data storage
 * Metaheuristics
-    * Trajectory Methods 
+    * Trajectory Methods
         * [Local Search](heuristics_trajectory_methods_basic_local_search.md)
         * [Simulated Annealing](heuristics_trajectory_methods_simulated_annealing.md)
         * [Tabu Search](heuristics_trajectory_methods_tabu_search.md)
