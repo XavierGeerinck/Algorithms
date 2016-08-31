@@ -38,17 +38,18 @@ Every time we insert a node, we will set its color to red and the root node to b
   * Make G red
   * Repeat from G
 
-  1. U is black
+  * U is black
 
     * Left Left Case \(P is left child of G and N is left child of P\)
     * Right Rotate G and Switch colors P and G
     * Left Right Case \(P is left child of G and N is right child of P\)
     * Left Rotate P --&gt; Back to the Left Left case
 
-  2. N is root, set color to black
+  * N is root, set color to black
+
+
 
 > Note that these cases are always symmetrical to each other! so we could have a Right Right case and a Right Left case as well.
-
 
 | **Left Left Case** | **Left Right Case** |
 | --- | --- |
@@ -85,7 +86,7 @@ Whenever we remove a child from the tree, we have to decrease the color of the l
 
 Top down insertion is more efficient then Bottom Up, because now we will be restructuring the tree on our way down, instead of going down first and then back up.
 
-To do this, we will look at the parent and the children first. If these 2 children are red, then we reverse the colors of the 3 nodes (parent and children). However if we have a red parent and a red grandparent, then we reorganize the tree.
+To do this, we will look at the parent and the children first. If these 2 children are red, then we reverse the colors of the 3 nodes \(parent and children\). However if we have a red parent and a red grandparent, then we reorganize the tree.
 
 Now we can have the same 2 cases as we could have in the Top-Down algorithm:
 
@@ -97,6 +98,13 @@ Now we can have the same 2 cases as we could have in the Top-Down algorithm:
 
 **Legend:** N = new node, S = sibling of N, P = parent, U = uncle of parent, G = grandparent
 
-For Top-Down deletion, we just go to our node with the BST method, but we make every node red on our path. Then we look at the 4 possible cases every time.![](/assets/red_black_deletion_topdown_case4.png)
+For Top-Down deletion, we just go to our node with the BST method, but we make every node red on our path. Then we look at the 4 possible cases every time.
+
+| Node C has at least 1 RED child | Node C has 2 black childs & Sibling B has 2 black childs |
+| --- | --- |
+| If we go to this RED child, go to this red child. If we go to this black child, make C red by rotating it over its red child and reversing their colors![](/images/datastructures/red_black_deletion_topdown_case1.png) | Make B and C red, and P black.![](/images/datastructures/red_black_deletion_topdown_case2.png) |
+| Node C has 2 black childs & Sibling B has a RED right child | Node C has 2 black childs & Sibling B has a RED left child |
+| Rotate B over P left and make C and B red and P and R black. Now we got a Left case.![](/images/datastructures/red_black_deletion_topdown_case3.png) | Rotate L over B right. Rotate P and L left. Make C RED and P BLACK.![](/images/datastructures/red_black_deletion_topdown_case4.png) |
+
 
 
