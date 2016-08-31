@@ -41,8 +41,7 @@ Every time we insert a node, we will set its color to red and the root node to b
         * Right Rotate G and Switch colors P and G
         * Left Right Case \(P is left child of G and N is right child of P\)
         * Left Rotate P --&gt; Back to the Left Left case
-
-
+    3. N is root, set color to black
 
 | **Left Left Case** | **Left Right Case** |
 | --- | --- |
