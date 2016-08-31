@@ -13,8 +13,7 @@
         * [Longest Common Sub sequence](datastructures/dynamic_programming/example_longest_common_sub_sequence.md)
     * [External Data Structures](datastructures/external_datastructures/external-data-structures.md)
         * [B-Trees](datastructures/external_datastructures/b_trees.md)
-        * [B+-Trees](datastructures/external_datastructures/b_plus_trees.md)
-        * [B\*-Trees](datastructures/external_datastructures/b_star_trees.md)
+        * [Variants](datastructures/external_datastructures/variants.md)
     * Multi-dimensional Data Structures
         * Point-Region Quadtree
         * Point-Quadtrees
