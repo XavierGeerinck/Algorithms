@@ -8,19 +8,15 @@ The bottom up method uses a term called _splaying_, this will set a specific ele
 
 | Zig Case | Zig Zag Case |
 | --- | --- |
-|  |  |
+| ![](/images/datastructures/splay_bottom_up_zig_case.png) | ![](/images/datastructures/splay_bottom_up_zig_zag_case.png) |
 | Zig Zig Case |  |
-|  |  |
-
-
+| ![](/images/datastructures/splay_bottom_up_zig_zig_case.png) |  |
 
 ## Top Down
 
 | Zig Case | Zig Zig Case |
 | --- | --- |
-|  |  |
+| ![](/images/datastructures/splay_top_down_zig_case.png) | ![](/images/datastructures/splay_top_down_zig_zig_case.png) |
 | Zig Zag Case |  |
-|  |  |
-
-
+| ![](/images/datastructures/splay_top_down_zig_zag_case.png) |  |
 
