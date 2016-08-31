@@ -82,6 +82,16 @@ Whenever we remove a child from the tree, we have to decrease the color of the l
 
 **Legend:** N = new node, S = sibling of N, P = parent, U = uncle of parent, G = grandparent
 
+Top down insertion is more efficient then Bottom Up, because now we will be restructuring the tree on our way down, instead of going down first and then back up.
+
+To do this, we will look at the parent and the children first. If these 2 children are red, then we reverse the colors of the 3 nodes (parent and children). However if we have a red parent and a red grandparent, then we reorganize the tree.
+
+Now we can have the same 2 cases as we could have in the Top-Down algorithm:
+
+| **Left Left Case** | **Left Right Case** |
+| --- | --- |
+| Rotate right over G and swap P and G its colors ![](/images/datastructures/trees_red_black_insert_left_left_case.png) | Rotate left over P first and afterwards right over G, now swap N and G its colors ![](/images/datastructures/trees_red_black_insert_left_right_case.png) |
+
 ### Top-Down Deletion
 
 **Legend:** N = new node, S = sibling of N, P = parent, U = uncle of parent, G = grandparent
