@@ -17,4 +17,5 @@ Please note that this book is created to give a quick overview of the algorithms
 
 In the future, I hope to add other important algorithms such as the Sorting algorithms, Dijkstra, ... however because there are so many topics already, I first hope to be able to finish all of those.
 
-Because this book is this large, errors are possible and can be corrected. For errors to be corrected, feel free to open a pull request or an issue at: https://github.com/thebillkidy/Algorithms
+Because this book is this large, errors are possible and can be corrected. For errors to be corrected, feel free to open a pull request or an issue at: https://github.com/thebillkidy/Algorithms 
+
