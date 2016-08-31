@@ -1,4 +1,23 @@
 # Example : Longest Common Sub sequence
+The longest common subsequence algorithm, is a Dynamic Programming algorithm that will find the longest appearing subsequence in 2 strings of text.
+
+Finding this with Dynamic Programming is really easy. We will create a matrix for the 2 strings and fill in the matrix from the top to bottom, left to right. 
+
+1. Create a matrix for the 2 strings
+2. Insert a 0 row and a 0 column
+3. Go from top to bottom left to right
+    * Check the 2 characters of the 2 strings and the current index
+        * If they match, do the previous value + 1
+        * Else, take the maximum of the value above and the value at the left
+4. Continue this for every field in the matrix
+
+To now find our LGC, we start that the most right bottom value in our matrix, and go back. If the characters match, we go one diagonally left upwards, else we go left.
+
+## Example
+
+
+## Code
+
 ```
 /**
  * @author: Xavier Geerinck
