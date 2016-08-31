@@ -97,3 +97,6 @@ Now we can have the same 2 cases as we could have in the Top-Down algorithm:
 
 **Legend:** N = new node, S = sibling of N, P = parent, U = uncle of parent, G = grandparent
 
+For Top-Down deletion, we just go to our node with the BST method, but we make every node red on our path. Then we look at the 4 possible cases every time.![](/assets/red_black_deletion_topdown_case4.png)
+
+
