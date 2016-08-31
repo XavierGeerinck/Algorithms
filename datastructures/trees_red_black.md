@@ -32,18 +32,21 @@ Every time we insert a node, we will set its color to red and the root node to b
 
 1. Insert as you would in a BST tree, but make the new node = red \(so if &gt; go right, if &lt; go left\)
 2. If P is NOT BLACK or N is not the root
-  1. U is red
-    * Make U and P black
-    * Make G red
-    * Repeat from G
+    1. U is red
+        * Make U and P black
+        * Make G red
+        * Repeat from G
+    2. U is black
+        * Left Left Case \(P is left child of G and N is left child of P\)
+        * Right Rotate G and Switch colors P and G
+        * Left Right Case \(P is left child of G and N is right child of P\)
+        * Left Rotate P --&gt; Back to the Left Left case
 
-  2. U is black
-    * Left Left Case \(P is left child of G and N is left child of P\)
-    * Right Rotate G and Switch colors P and G
-    * Left Right Case \(P is left child of G and N is right child of P\)
-    * Left Rotate P --&gt; Back to the Left Left case
 
 
+| **Left Left Case** | **Left Right Case** |
+| --- | --- |
+| ![](/images/datastructures/trees_red_black_insert_left_left_case.png) | ![](/images/datastructures/trees_red_black_insert_left_right_case.png) |
 
 ### Bottom-Up Deletion
 
