@@ -3,9 +3,9 @@
 * [Introduction](README.md)
 * Data Structures
     * Trees
-        * [Red-Black Trees](datastructures/trees_red_black.md)
-        * [Splay Trees](datastructures/splay_trees.md)
-        * [Randomized Search Trees](datastructures/randomized_search_trees.md)
+        * [Red-Black Trees](datastructures/trees/red_black.md)
+        * [Splay Trees](datastructures/trees/splay.md)
+        * [Randomized Search Trees](datastructures/trees/randomized_search.md)
     * [Dynamic Programming](dynamic_programming/dynamic_programming.md)
         * [Fibonacci](dynamic_programming/example_fibonacci.md)
         * [Knapsack](dynamic_programming/example_knapsack.md)
