@@ -47,6 +47,7 @@ Every time we insert a node, we will set its color to red and the root node to b
 
   2. N is root, set color to black
 
+> Note that these cases are always symmetrical to each other! so we could have a Right Right case and a Right Left case as well.
 
 
 | **Left Left Case** | **Left Right Case** |
