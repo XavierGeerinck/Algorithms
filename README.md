@@ -1,5 +1,15 @@
+# Algorithms
+
+## Status
 ** \*This book is currently an ongoing process and chapters might be added / removed in the future\* **
 
+Currently the following chapters are completed:
+* Data Structures / Trees
+* Data Structures / Dynamic Programming
+* Data Structures / External Data Structures
+* Metaheuristics
+
+## Introduction
 In this book you will find important and efficient algorithms used in Computer Science today. This list was created based on the courses that I got during my studies at the University Of Ghent (Belgium), containing 4 major aspects:
 
 * Data Structures
