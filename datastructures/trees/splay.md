@@ -6,6 +6,8 @@ Splay Trees are kind of special when it comes to how they work performance wise.
 
 The bottom up method uses a term called _splaying_, this will set a specific element as the root element through rotations. This splaying method can be explained with three specific cases:
 
+> Tip: A good way to implement going towards the node is by pushing the nodes that are used in the path on a stack. That way we can go back to the parent and the grandparent.
+
 ### Operations
 
 * **Search:** Search as in a BST, and make the last node the root by using the splay operation.
