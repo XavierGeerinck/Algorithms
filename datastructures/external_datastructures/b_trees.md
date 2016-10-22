@@ -5,7 +5,7 @@ B-Trees are a continuation on the 2-3 trees, with every node pointing towards a 
 * They have a magnitude m
 * The amount of keys is dependant on this magnitude
     * the root can have between 1 and m - 1 keys.
-    * a node can have between m/2 and m - 1 keys.
+    * a node can have between (m/2) - 1 and m - 1 keys.
 * Every leaf is on the same level
 * The max amount of child nodes at a node is the #maximum_number_of_keys + 1
 * Every key of a B-Tree is ordered ascending
