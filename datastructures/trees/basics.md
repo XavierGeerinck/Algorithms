@@ -16,24 +16,22 @@
 
 * Level order starts at the root and goes from top to bottom from left to right
 
-### Preorder traversal
+### Pre-order traversal
 
 * first root node, then left subtree, then right subtree
 
 ![](/images/datastructures/tree_preorder.png)
 
-### Inorder traversal
+### In-order traversal
 
 * The output will produce sorted key values in ascending order
 * First left subtree, then root, then right subtree
 
 ![](/images/datastructures/tree_inorder)
 
-### Postorder traversal
+### Post-order traversal
 
 * First left subtree, then right subtree, then root
 
 ![](/images/datastructures/tree_postorder.png)
-
-
 
