@@ -18,3 +18,5 @@
 
 ![](/images/datastructures/doubled_linkedlist.png)
 
+https://www.tutorialspoint.com/data\_structures\_algorithms/linked\_list\_algorithms.htm 
+
