@@ -8,7 +8,11 @@
 
 ### Operations
 
-* Insertion: 
+* Traverse
+* Insertion
+* Deletion
+* Search
+* Update
 
 ## List
 
