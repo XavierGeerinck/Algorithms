@@ -2,8 +2,13 @@
 
 ## Table or Array
 
-* Is directly supported by the internal memory of a computer
-* Stores data in an associative manner, appointing in
+* Holds a number of **elements **of a certain **type **at a certain **index **\(numerical location, 0 based\)
+
+![](/images/datastructures/array.png)
+
+### Operations
+
+* Insertion: 
 
 ## List
 
