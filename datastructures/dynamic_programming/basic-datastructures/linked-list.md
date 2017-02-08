@@ -16,7 +16,7 @@
 
 * In a double linked list, we can move backwards and forwards through the items
 
-![](/images/datastructures/doubled_linkedlist.png)
+![](/images/datastructures/double_linkedlist.png)
 
-https://www.tutorialspoint.com/data\_structures\_algorithms/linked\_list\_algorithms.htm 
+[https://www.tutorialspoint.com/data\\_structures\\_algorithms/linked\\_list\\_algorithms.htm](https://www.tutorialspoint.com/data\_structures\_algorithms/linked\_list\_algorithms.htm)
 
