@@ -35,3 +35,7 @@
 
 ![](/images/datastructures/tree_postorder.png)
 
+https://www.tutorialspoint.com/data\_structures\_algorithms/tree\_data\_structure.htm
+
+https://www.tutorialspoint.com/data\_structures\_algorithms/tree\_traversal.htm
+
