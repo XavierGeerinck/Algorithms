@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Data Structures
+* [Data Structures](data-structures.md)
   * [Basic Datastructures](datastructures/dynamic_programming/basic-datastructures.md)
     * [Table or Array](datastructures/dynamic_programming/basic-datastructures/table-or-array.md)
     * [List](datastructures/dynamic_programming/basic-datastructures/list.md)
