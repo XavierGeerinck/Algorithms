@@ -7,7 +7,12 @@
 * Done through the operations POP and PUSH
 * Implementation is done through an array, pointer or linked list
 
-https://www.tutorialspoint.com/data\_structures\_algorithms/stack\_algorithm.htm
+## Operations
 
+* Insert
+* Deletion
+* isEmpty
+* top or peek
 
+[https://www.tutorialspoint.com/data\\_structures\\_algorithms/stack\\_algorithm.htm](https://www.tutorialspoint.com/data\_structures\_algorithms/stack\_algorithm.htm)
 
