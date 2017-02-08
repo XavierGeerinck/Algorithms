@@ -6,6 +6,7 @@
   * FIFO: First in, First out --&gt; The element that was added first, is processed first
 * Done through the operations POP and PUSH
 * Implementation is done through an array, pointer or linked list
+  * It adds the elements after each other as soon as they appear
 
 ## Operations
 
