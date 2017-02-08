@@ -2,8 +2,8 @@
 
 * [Introduction](README.md)
 * Data Structures
-  * Containers
-    * Table
+  * [Basic Datastructures](datastructures/dynamic_programming/basic-datastructures.md)
+    * [Table](datastructures/dynamic_programming/table.md)
     * List
     * Stack
     * Queue
@@ -73,6 +73,4 @@
     * [Ant Colony](heuristics/population_based_ant_colony.md)
     * [Evolutionary Computation](heuristics/population_based_evolutionary_computation.md)
 * Sources
-
-
 
