@@ -4,7 +4,7 @@
 * Data Structures
   * [Basic Datastructures](datastructures/dynamic_programming/basic-datastructures.md)
     * [Table or Array](datastructures/dynamic_programming/basic-datastructures/table-or-array.md)
-    * List
+    * [List](datastructures/dynamic_programming/basic-datastructures/list.md)
     * Linked List
   * Trees
     * Basics
