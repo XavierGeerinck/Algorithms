@@ -5,7 +5,7 @@
   * [Basic Datastructures](datastructures/dynamic_programming/basic-datastructures.md)
     * [Table or Array](datastructures/dynamic_programming/basic-datastructures/table-or-array.md)
     * [List](datastructures/dynamic_programming/basic-datastructures/list.md)
-    * Linked List
+    * [Linked List](datastructures/dynamic_programming/basic-datastructures/linked-list.md)
   * Trees
     * Basics
     * [Red-Black Trees](datastructures/trees/red_black.md)
