@@ -25,5 +25,5 @@
 * Swap if needed depending on the heap
 * Repeat for the subheap
 
-
+https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/DemoHeapify-2x2.pdf
 
