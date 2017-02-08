@@ -8,6 +8,7 @@
     * [Linked List](datastructures/dynamic_programming/basic-datastructures/linked-list.md)
     * [Stack](datastructures/dynamic_programming/basic-datastructures/stack.md)
     * [Deque](datastructures/dynamic_programming/basic-datastructures/deque.md)
+    * [Queue](datastructures/dynamic_programming/basic-datastructures/queue.md)
   * Trees
     * Basics
     * [Red-Black Trees](datastructures/trees/red_black.md)
