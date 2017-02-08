@@ -32,7 +32,7 @@ Because this book is this large, errors are possible and can be corrected. For e
 
 I used this summary to prepare for my interview with Microsoft in February 2017. I mainly focused on the following concepts:
 
-Datastructures: 
+Datastructures:
 
 * Linked List
 * Stack

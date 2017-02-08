@@ -1,6 +1,5 @@
 # Queue
 
-* 
 ## Operations
 
 * Insertion
