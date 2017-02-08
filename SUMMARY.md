@@ -12,6 +12,7 @@
   * [Trees](datastructures/dynamic_programming/trees.md)
     * [Tree](datastructures/trees/basics.md)
     * [Binary Search Tree](datastructures/trees/binary-search-tree.md)
+    * [Heap](datastructures/trees/heap.md)
     * [Red-Black Trees](datastructures/trees/red_black.md)
     * [Splay Trees](datastructures/trees/splay.md)
     * [Randomized Search Trees](datastructures/trees/randomized_search.md)
