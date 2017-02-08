@@ -21,8 +21,9 @@
 
 ### Top-Down \(Sink\)
 
-* Create a new table
-* Start adding elements to this table, swap the 
+* Start from root and check children
+* Swap if needed depending on the heap
+* Repeat for the subheap
 
 
 
