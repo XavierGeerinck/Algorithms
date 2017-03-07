@@ -18,6 +18,7 @@
     * [Stack](datastructures/dynamic_programming/basic-datastructures/stack.md)
     * [Queue](datastructures/dynamic_programming/basic-datastructures/queue.md)
     * [Deque](datastructures/dynamic_programming/basic-datastructures/deque.md)
+    * [HashTables](datastructures/dynamic_programming/basic-datastructures/hashtables.md)
   * [Trees](datastructures/dynamic_programming/trees.md)
     * [Tree](datastructures/trees/basics.md)
     * [Binary Search Tree](datastructures/trees/binary-search-tree.md)
@@ -39,6 +40,7 @@
   * Priority Queues
     * Binomial Queues
 * [Graphs](graphs.md)
+  * [Basics](basics.md)
   * [Depth First Search](depth-first-search.md)
   * [Applications of Depth First Search](applications-of-depth-first-search.md)
   * [Breadth First Search](breadth-first-search.md)
@@ -46,7 +48,6 @@
   * Transitive Closure
   * Flow Networks
   * Matching
-  * [Basics](basics.md)
 * Strings
   * Data Structures for Strings
     * Tries
