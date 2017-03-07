@@ -46,6 +46,7 @@
   * Transitive Closure
   * Flow Networks
   * Matching
+  * [Basics](basics.md)
 * Strings
   * Data Structures for Strings
     * Tries
