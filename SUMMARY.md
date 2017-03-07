@@ -6,7 +6,7 @@
   * [Shell Sort](algorithms/shell-sort.md)
   * [Selection Sort](algorithms/selection-sort.md)
   * [Heap Sort](algorithms/heap-sort.md)
-  * Merge Sort
+  * [Merge Sort](algorithms/merge-sort.md)
   * Quick Sort
   * Dual Pivot QuickSort
   * Radix Exchange Sort
