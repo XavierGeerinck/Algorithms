@@ -4,7 +4,7 @@
 * [Algorithms](algorithms.md)
   * [Insertion Sort](algorithms/insertion-sort.md)
   * [Shell Sort](algorithms/shell-sort.md)
-  * Selection Sort
+  * [Selection Sort](algorithms/selection-sort.md)
   * Heap Sort
   * Merge Sort
   * Quick Sort
