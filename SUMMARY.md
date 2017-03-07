@@ -18,6 +18,7 @@
     * [Stack](datastructures/dynamic_programming/basic-datastructures/stack.md)
     * [Queue](datastructures/dynamic_programming/basic-datastructures/queue.md)
     * [Deque](datastructures/dynamic_programming/basic-datastructures/deque.md)
+    * [Dictionary](datastructures/dynamic_programming/basic-datastructures/dictionary.md)
     * [HashTables](datastructures/dynamic_programming/basic-datastructures/hashtables.md)
   * [Trees](datastructures/dynamic_programming/trees.md)
     * [Tree](datastructures/trees/basics.md)
