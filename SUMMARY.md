@@ -1,6 +1,15 @@
 # Summary
 
 * [Introduction](README.md)
+* [Algorithms](algorithms.md)
+  * [Insertion Sort](algorithms/insertion-sort.md)
+  * [Shell Sort](algorithms/shell-sort.md)
+  * Selection Sort
+  * Heap Sort
+  * Merge Sort
+  * Quick Sort
+  * Dual Pivot QuickSort
+  * Radix Exchange Sort
 * [Data Structures](data-structures.md)
   * [Basic Datastructures](datastructures/dynamic_programming/basic-datastructures.md)
     * [Table or Array](datastructures/dynamic_programming/basic-datastructures/table-or-array.md)
