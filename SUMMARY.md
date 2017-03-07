@@ -8,7 +8,7 @@
   * [Heap Sort](algorithms/heap-sort.md)
   * [Merge Sort](algorithms/merge-sort.md)
   * [Quick Sort](algorithms/quick-sort.md)
-  * Dual Pivot QuickSort
+  * [Dual Pivot QuickSort](algorithms/dual-pivot-quicksort.md)
   * Radix Exchange Sort
 * [Data Structures](data-structures.md)
   * [Basic Datastructures](datastructures/dynamic_programming/basic-datastructures.md)
