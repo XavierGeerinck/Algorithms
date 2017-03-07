@@ -38,9 +38,10 @@
     * Point-Quadtrees
   * Priority Queues
     * Binomial Queues
-* Graphs
+* [Graphs](graphs.md)
   * [Depth First Search](depth-first-search.md)
   * [Applications of Depth First Search](applications-of-depth-first-search.md)
+  * [Breadth First Search](breadth-first-search.md)
   * [Shortest Paths](shortest-paths.md)
   * Transitive Closure
   * Flow Networks
