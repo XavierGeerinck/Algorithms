@@ -39,8 +39,8 @@
   * Priority Queues
     * Binomial Queues
 * Graph Problems
-  * Applications of Depth First Search
-  * Shortest Paths
+  * [Applications of Depth First Search](applications-of-depth-first-search.md)
+  * [Shortest Paths](shortest-paths.md)
   * Transitive Closure
   * Flow Networks
   * Matching
