@@ -1,8 +1,8 @@
-# Algorithms
+# Introduction
 
 ## Status
 
-** \*This book is currently an ongoing process and chapters might be added / removed in the future\* **
+ **\*This book is currently an ongoing process and chapters might be added / removed in the future\*** 
 
 Currently the following chapters are completed:
 
@@ -53,6 +53,4 @@ Algorithms:
 * Bucket Sort
 * Radix Sort
 * Binary Search
-
-
 

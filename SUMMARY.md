@@ -1,7 +1,7 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
-* [Algorithms](algorithms.md)
+* [Algorithms](algorithms/README.md)
   * [Insertion Sort](algorithms/insertion-sort.md)
   * [Shell Sort](algorithms/shell-sort.md)
   * [Selection Sort](algorithms/selection-sort.md)
@@ -10,83 +10,83 @@
   * [Quick Sort](algorithms/quick-sort.md)
   * [Dual Pivot QuickSort](algorithms/dual-pivot-quicksort.md)
   * [Radix Exchange Sort](algorithms/radix-exchange-sort.md)
-* [Data Structures](data-structures.md)
-  * [Basic Datastructures](datastructures/dynamic_programming/basic-datastructures.md)
-    * [Table or Array](datastructures/dynamic_programming/basic-datastructures/table-or-array.md)
-    * [List](datastructures/dynamic_programming/basic-datastructures/list.md)
-    * [Linked List](datastructures/dynamic_programming/basic-datastructures/linked-list.md)
-    * [Stack](datastructures/dynamic_programming/basic-datastructures/stack.md)
-    * [Queue](datastructures/dynamic_programming/basic-datastructures/queue.md)
-    * [Deque](datastructures/dynamic_programming/basic-datastructures/deque.md)
-    * [Dictionary](datastructures/dynamic_programming/basic-datastructures/dictionary.md)
-    * [HashTables](datastructures/dynamic_programming/basic-datastructures/hashtables.md)
-  * [Trees](datastructures/dynamic_programming/trees.md)
-    * [Tree](datastructures/trees/basics.md)
-    * [Binary Search Tree](datastructures/trees/binary-search-tree.md)
-    * [Heap](datastructures/trees/heap.md)
-    * [Red-Black Trees](datastructures/trees/red_black.md)
-    * [Splay Trees](datastructures/trees/splay.md)
-    * [Randomized Search Trees](datastructures/trees/randomized_search.md)
-  * [Dynamic Programming](datastructures/dynamic_programming/dynamic_programming.md)
-    * [Fibonacci](datastructures/dynamic_programming/example_fibonacci.md)
-    * [Knapsack](datastructures/dynamic_programming/example_knapsack.md)
-    * [Optimal Binary Search Trees](datastructures/dynamic_programming/example_optimal_binary_search_trees.md)
-    * [Longest Common Sub sequence](datastructures/dynamic_programming/example_longest_common_sub_sequence.md)
-  * [External Data Structures](datastructures/external_datastructures/external-data-structures.md)
-    * [B-Trees](datastructures/external_datastructures/b_trees.md)
-    * [Variants](datastructures/external_datastructures/variants.md)
-  * Multi-dimensional Data Structures
-    * Point-Region Quadtree
-    * Point-Quadtrees
-  * Priority Queues
-    * Binomial Queues
-* [Graphs](graphs.md)
-  * [Basics](basics.md)
-  * [Depth First Search](depth-first-search.md)
-  * [Applications of Depth First Search](applications-of-depth-first-search.md)
-  * [Breadth First Search](breadth-first-search.md)
-  * [Shortest Paths](shortest-paths.md)
-  * Transitive Closure
-  * Flow Networks
-  * Matching
-* Strings
-  * Data Structures for Strings
-    * Tries
-      * Binary Tries
-      * Multiway Trie
-      * Patricia Tries
-    * Variable Length-code
-      * [Elias Code](strings/variable_length_code/elias.md)
-      * [Gamma Code](strings/variable_length_code/gamma.md)
-      * [Fibonacci Code](strings/variable_length_code/fibonacci.md)
-    * [Huffmancode](strings/huffmancode.md)
-    * Ternary Search Tree
-  * Searching in Strings
-    * Prefix Function
-    * Knuth-Morris-Pratt
-    * Boyer-Moore
-    * Monte-Carlo Algorithms
-    * Karp-Rabin
-    * Automatons
-    * Shift-AND
-  * Indexing Text
-    * Suffix Trees
-    * Suffix Arrays
-    * Search Engines & Inverted Files
-* P and NP
-  * Introduction
-  * SAT and 3-SAT
-  * Graph Problems
-  * Problems with Collections
-  * Networks
-  * Data storage
-* Metaheuristics
-  * Trajectory Methods
-    * [Local Search](heuristics/trajectory_methods_basic_local_search.md)
-    * [Simulated Annealing](heuristics/trajectory_methods_simulated_annealing.md)
-    * [Tabu Search](heuristics/trajectory_methods_tabu_search.md)
-  * Population Based
-    * [Ant Colony](heuristics/population_based_ant_colony.md)
-    * [Evolutionary Computation](heuristics/population_based_evolutionary_computation.md)
+* [Data Structures](data-structures/README.md)
+  * [Basic Datastructures](data-structures/basic-datastructures/README.md)
+    * [Table or Array](data-structures/basic-datastructures/table-or-array.md)
+    * [List](data-structures/basic-datastructures/list.md)
+    * [Linked List](data-structures/basic-datastructures/linked-list.md)
+    * [Stack](data-structures/basic-datastructures/stack.md)
+    * [Queue](data-structures/basic-datastructures/queue.md)
+    * [Deque](data-structures/basic-datastructures/deque.md)
+    * [Dictionary](data-structures/basic-datastructures/dictionary.md)
+    * [HashTables](data-structures/basic-datastructures/hashtables.md)
+  * [Trees](data-structures/trees/README.md)
+    * [Tree](data-structures/trees/basics.md)
+    * [Binary Search Tree](data-structures/trees/binary-search-tree.md)
+    * [Heap](data-structures/trees/heap.md)
+    * [Red-Black Trees](data-structures/trees/red_black.md)
+    * [Splay Trees](data-structures/trees/splay.md)
+    * [Randomized Search Trees](data-structures/trees/randomized_search.md)
+  * [Dynamic Programming](data-structures/dynamic_programming/README.md)
+    * [Fibonacci](data-structures/dynamic_programming/example_fibonacci.md)
+    * [Knapsack](data-structures/dynamic_programming/example_knapsack.md)
+    * [Optimal Binary Search Trees](data-structures/dynamic_programming/example_optimal_binary_search_trees.md)
+    * [Longest Common Sub sequence](data-structures/dynamic_programming/example_longest_common_sub_sequence.md)
+  * [External Data Structures](data-structures/external-data-structures/README.md)
+    * [B-Trees](data-structures/external-data-structures/b_trees.md)
+    * [Variants](data-structures/external-data-structures/variants.md)
+  * [Multi-dimensional Data Structures](data-structures/multi-dimensional-data-structures/README.md)
+    * [Point-Region Quadtree](data-structures/multi-dimensional-data-structures/point-region-quadtree.md)
+    * [Point-Quadtrees](data-structures/multi-dimensional-data-structures/point-quadtrees.md)
+  * [Priority Queues](data-structures/priority-queues/README.md)
+    * [Binomial Queues](data-structures/priority-queues/binomial-queues.md)
+* [Graphs](graphs/README.md)
+  * [Basics](graphs/basics.md)
+  * [Depth First Search](graphs/depth-first-search.md)
+  * [Applications of Depth First Search](graphs/applications-of-depth-first-search.md)
+  * [Breadth First Search](graphs/breadth-first-search.md)
+  * [Shortest Paths](graphs/shortest-paths.md)
+  * [Transitive Closure](graphs/transitive-closure.md)
+  * [Flow Networks](graphs/flow-networks.md)
+  * [Matching](graphs/matching.md)
+* [Strings](strings/README.md)
+  * [Data Structures for Strings](strings/data-structures-for-strings/README.md)
+    * [Tries](strings/data-structures-for-strings/tries/README.md)
+      * [Binary Tries](strings/data-structures-for-strings/tries/binary-tries.md)
+      * [Multiway Trie](strings/data-structures-for-strings/tries/multiway-trie.md)
+      * [Patricia Tries](strings/data-structures-for-strings/tries/patricia-tries.md)
+    * [Variable Length-code](strings/data-structures-for-strings/variable-length-code/README.md)
+      * [Elias Code](strings/data-structures-for-strings/variable-length-code/elias-code.md)
+      * [Gamma Code](strings/data-structures-for-strings/variable-length-code/gamma-code.md)
+      * [Fibonacci Code](strings/data-structures-for-strings/variable-length-code/fibonacci-code.md)
+    * [Huffmancode](strings/data-structures-for-strings/huffmancode.md)
+    * [Ternary Search Tree](strings/data-structures-for-strings/ternary-search-tree.md)
+  * [Searching in Strings](strings/searching-in-strings/README.md)
+    * [Prefix Function](strings/searching-in-strings/prefix-function.md)
+    * [Knuth-Morris-Pratt](strings/searching-in-strings/knuth-morris-pratt.md)
+    * [Boyer-Moore](strings/searching-in-strings/boyer-moore.md)
+    * [Monte-Carlo Algorithms](strings/searching-in-strings/monte-carlo-algorithms.md)
+    * [Karp-Rabin](strings/searching-in-strings/karp-rabin.md)
+    * [Automatons](strings/searching-in-strings/automatons.md)
+    * [Shift-AND](strings/searching-in-strings/shift-and.md)
+  * [Indexing Text](strings/indexing-text/README.md)
+    * [Suffix Trees](strings/indexing-text/suffix-trees.md)
+    * [Suffix Arrays](strings/indexing-text/suffix-arrays.md)
+    * [Search Engines & Inverted Files](strings/indexing-text/search-engines-and-inverted-files.md)
+* [P and NP](p-and-np/README.md)
+  * [Introduction](p-and-np/introduction.md)
+  * [SAT and 3-SAT](p-and-np/sat-and-3-sat.md)
+  * [Graph Problems](p-and-np/graph-problems.md)
+  * [Problems with Collections](p-and-np/problems-with-collections.md)
+  * [Networks](p-and-np/networks.md)
+  * [Data storage](p-and-np/data-storage.md)
+* [Metaheuristics](metaheuristics/README.md)
+  * [Trajectory Methods](metaheuristics/trajectory-methods/README.md)
+    * [Local Search](metaheuristics/trajectory-methods/trajectory_methods_basic_local_search.md)
+    * [Simulated Annealing](metaheuristics/trajectory-methods/trajectory_methods_simulated_annealing.md)
+    * [Tabu Search](metaheuristics/trajectory-methods/trajectory_methods_tabu_search.md)
+  * [Population Based](metaheuristics/population-based/README.md)
+    * [Ant Colony](metaheuristics/population-based/population_based_ant_colony.md)
+    * [Evolutionary Computation](metaheuristics/population-based/population_based_evolutionary_computation.md)
 * [Sources](sources.md)
 
